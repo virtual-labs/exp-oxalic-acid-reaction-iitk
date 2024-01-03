@@ -1,1 +1,1 @@
-### Aim of the experiment
+Molecular level understanding about the kinetics of a chemical reaction.
