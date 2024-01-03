@@ -6,9 +6,9 @@ k=Ae<sup>-E<sub>a</sub>/RT</sup>				   (1)<br>
 
 where R is the ideal gas constant, T is the temperature in Kelvin, Ea is the activation energy and A is a constant called the frequency factor, which is related to the fraction of collisions between reactants having the proper orientation to form an activated complex. Taking natural logarithm of the above equation we get 
 
-ln⁡k=-Ea/RT+ln⁡A				(2)<br>
+ln⁡k=-E<sub>a</sub>/RT+ ln ⁡A				(2)<br>
 
-Thus, a plot of ln k vs 1/T yiels a straight line with negative slope = –Ea/R.<br>
+Thus, a plot of ln k vs 1/T yiels a straight line with negative slope = –E<sub>a</sub>/R <br>
 
-In this experiment, a reaction between potassium permanganate and dilute oxalic acid will be carried out at different temperatures. The permanganate ion converted to MnO2 in this reaction. The rate constant (k) is measured at different temperatures and lnk is plotted agains (1/T) to determine Activation energy (Ea). Given that the reaction is first order in permangate and oxalate, the rate constant can be measured by measuring the completion time of the reaction, which accompany a change in colour from deep purple to light brown. 
+In this experiment, a reaction between potassium permanganate and dilute oxalic acid will be carried out at different temperatures. The permanganate ion converted to MnO2 in this reaction. The rate constant (k) is measured at different temperatures and lnk is plotted agains (1/T) to determine Activation energy (E<sub>a</sub>). Given that the reaction is first order in permangate and oxalate, the rate constant can be measured by measuring the completion time of the reaction, which accompany a change in colour from deep purple to light brown. 
 
