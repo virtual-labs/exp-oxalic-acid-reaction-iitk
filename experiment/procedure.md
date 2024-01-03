@@ -34,15 +34,15 @@ Rate= [KMnO4]/time
 Next, we have measured rate constant (k) by using following equation
 k = rate / [KMnO4] [Oxalic Acid]<br>
 
-<img src="images/table.png"><br>
+<img src="images/table(1).png"><br>
 <br>
 <img src="images/fig7.jpg" width="400" height="300" alt="">
 <br>
 Therefore, 
 Slope = -Ea/R = - 8270 K
- Then Ea  E_(a )=(8270 K ×R)
-  =(8270 K×8.314 J 〖mol〗^(-1) K^(-1) )
-  = 68.75 kJ 〖mol〗^(-1)
+Then Ea  E_(a )=(8270 K ×R)
+=(8270 K×8.314 J 〖mol〗^(-1) K^(-1) )
+= 68.75 kJ 〖mol〗^(-1)
 <br>
 <b>Activation Energy for this chemical reaction = 68.75 kJ mol-1</b>
 <br>
@@ -56,9 +56,9 @@ To be created
 <br>
 Therefore, 
 Slope = -Ea/R = - 8270 K
- Then Ea  E_(a )=(8270 K ×R)
-  =(8270 K×8.314 J 〖mol〗^(-1) K^(-1) )
-  = 68.75 KJ 〖mol〗^(-1)
+Then Ea  E_(a )=(8270 K ×R)
+=(8270 K×8.314 J 〖mol〗^(-1) K^(-1) )
+= 68.75 KJ 〖mol〗^(-1)
 
 
 
