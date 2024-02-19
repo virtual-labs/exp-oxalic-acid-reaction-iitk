@@ -1,0 +1,155 @@
+
+/home/runner/work/exp-oxalic-acid-reaction-iitk/exp-oxalic-acid-reaction-iitk/experiment/simulation/css/script/project.js
+   25:5   warning  'hmessage' is assigned a value but never used  no-unused-vars
+   92:10  warning  'ok' is defined but never used                 no-unused-vars
+  109:5   warning  'sp1' is not defined                           no-undef
+  131:9   warning  'sp1' is not defined                           no-undef
+  162:5   warning  'sp1' is not defined                           no-undef
+  172:10  warning  'on' is defined but never used                 no-unused-vars
+  180:10  warning  'petridish' is defined but never used          no-unused-vars
+  194:9   warning  'sp1' is not defined                           no-undef
+  199:13  warning  'sp1' is not defined                           no-undef
+  203:13  warning  'sp1' is not defined                           no-undef
+  207:13  warning  'sp1' is not defined                           no-undef
+  221:10  warning  'tare' is defined but never used               no-unused-vars
+  230:10  warning  'spatulamove' is defined but never used        no-unused-vars
+  246:13  warning  'sp1' is not defined                           no-undef
+  260:10  warning  'funnel' is defined but never used             no-unused-vars
+  274:10  warning  'Dwater' is defined but never used             no-unused-vars
+  303:10  warning  'mix' is defined but never used                no-unused-vars
+  319:10  warning  'pipette' is defined but never used            no-unused-vars
+
+/home/runner/work/exp-oxalic-acid-reaction-iitk/exp-oxalic-acid-reaction-iitk/experiment/simulation/css/script/starting.js
+   1:1  warning  'hconductometer' is not defined  no-undef
+   2:5  warning  'hovt' is not defined            no-undef
+   3:5  warning  'hovt' is not defined            no-undef
+   4:5  warning  'hovt' is not defined            no-undef
+   5:5  warning  'hovt' is not defined            no-undef
+   6:5  warning  'hovt' is not defined            no-undef
+  10:1  warning  'hcellstand' is not defined      no-undef
+  11:5  warning  'hovt' is not defined            no-undef
+  12:5  warning  'hovt' is not defined            no-undef
+  13:5  warning  'hovt' is not defined            no-undef
+  14:5  warning  'hovt' is not defined            no-undef
+  15:5  warning  'hovt' is not defined            no-undef
+  19:1  warning  'hcell' is not defined           no-undef
+  20:5  warning  'hovt' is not defined            no-undef
+  21:5  warning  'hovt' is not defined            no-undef
+  22:5  warning  'hovt' is not defined            no-undef
+  23:5  warning  'hovt' is not defined            no-undef
+  24:5  warning  'hovt' is not defined            no-undef
+  28:1  warning  'hcs' is not defined             no-undef
+  29:5  warning  'hovt' is not defined            no-undef
+  30:5  warning  'hovt' is not defined            no-undef
+  31:5  warning  'hovt' is not defined            no-undef
+  32:5  warning  'hovt' is not defined            no-undef
+  33:5  warning  'hovt' is not defined            no-undef
+  37:1  warning  'hss' is not defined             no-undef
+  38:5  warning  'hovt' is not defined            no-undef
+  39:5  warning  'hovt' is not defined            no-undef
+  40:5  warning  'hovt' is not defined            no-undef
+  41:5  warning  'hovt' is not defined            no-undef
+  42:5  warning  'hovt' is not defined            no-undef
+  46:1  warning  'has' is not defined             no-undef
+  47:5  warning  'hovt' is not defined            no-undef
+  48:5  warning  'hovt' is not defined            no-undef
+  49:5  warning  'hovt' is not defined            no-undef
+  50:5  warning  'hovt' is not defined            no-undef
+  51:5  warning  'hovt' is not defined            no-undef
+  54:1  warning  'hconductometer' is not defined  no-undef
+  55:5  warning  'hovt' is not defined            no-undef
+  56:5  warning  'hovt' is not defined            no-undef
+  59:1  warning  'hcellstand' is not defined      no-undef
+  60:5  warning  'hovt' is not defined            no-undef
+  61:5  warning  'hovt' is not defined            no-undef
+  64:1  warning  'hcell' is not defined           no-undef
+  65:5  warning  'hovt' is not defined            no-undef
+  66:5  warning  'hovt' is not defined            no-undef
+  69:1  warning  'hcs' is not defined             no-undef
+  70:5  warning  'hovt' is not defined            no-undef
+  71:5  warning  'hovt' is not defined            no-undef
+  74:1  warning  'hss' is not defined             no-undef
+  75:5  warning  'hovt' is not defined            no-undef
+  76:5  warning  'hovt' is not defined            no-undef
+  79:1  warning  'has' is not defined             no-undef
+  80:5  warning  'hovt' is not defined            no-undef
+  81:5  warning  'hovt' is not defined            no-undef
+
+/home/runner/work/exp-oxalic-acid-reaction-iitk/exp-oxalic-acid-reaction-iitk/experiment/simulation/script/project.js
+   25:5   warning  'hmessage' is assigned a value but never used  no-unused-vars
+   92:10  warning  'ok' is defined but never used                 no-unused-vars
+  109:5   warning  'sp1' is not defined                           no-undef
+  131:9   warning  'sp1' is not defined                           no-undef
+  162:5   warning  'sp1' is not defined                           no-undef
+  172:10  warning  'on' is defined but never used                 no-unused-vars
+  180:10  warning  'petridish' is defined but never used          no-unused-vars
+  194:9   warning  'sp1' is not defined                           no-undef
+  199:13  warning  'sp1' is not defined                           no-undef
+  203:13  warning  'sp1' is not defined                           no-undef
+  207:13  warning  'sp1' is not defined                           no-undef
+  221:10  warning  'tare' is defined but never used               no-unused-vars
+  230:10  warning  'spatulamove' is defined but never used        no-unused-vars
+  246:13  warning  'sp1' is not defined                           no-undef
+  260:10  warning  'funnel' is defined but never used             no-unused-vars
+  274:10  warning  'Dwater' is defined but never used             no-unused-vars
+  303:10  warning  'mix' is defined but never used                no-unused-vars
+  319:10  warning  'pipette' is defined but never used            no-unused-vars
+
+/home/runner/work/exp-oxalic-acid-reaction-iitk/exp-oxalic-acid-reaction-iitk/experiment/simulation/script/starting.js
+   1:1  warning  'hconductometer' is not defined  no-undef
+   2:5  warning  'hovt' is not defined            no-undef
+   3:5  warning  'hovt' is not defined            no-undef
+   4:5  warning  'hovt' is not defined            no-undef
+   5:5  warning  'hovt' is not defined            no-undef
+   6:5  warning  'hovt' is not defined            no-undef
+  10:1  warning  'hcellstand' is not defined      no-undef
+  11:5  warning  'hovt' is not defined            no-undef
+  12:5  warning  'hovt' is not defined            no-undef
+  13:5  warning  'hovt' is not defined            no-undef
+  14:5  warning  'hovt' is not defined            no-undef
+  15:5  warning  'hovt' is not defined            no-undef
+  19:1  warning  'hcell' is not defined           no-undef
+  20:5  warning  'hovt' is not defined            no-undef
+  21:5  warning  'hovt' is not defined            no-undef
+  22:5  warning  'hovt' is not defined            no-undef
+  23:5  warning  'hovt' is not defined            no-undef
+  24:5  warning  'hovt' is not defined            no-undef
+  28:1  warning  'hcs' is not defined             no-undef
+  29:5  warning  'hovt' is not defined            no-undef
+  30:5  warning  'hovt' is not defined            no-undef
+  31:5  warning  'hovt' is not defined            no-undef
+  32:5  warning  'hovt' is not defined            no-undef
+  33:5  warning  'hovt' is not defined            no-undef
+  37:1  warning  'hss' is not defined             no-undef
+  38:5  warning  'hovt' is not defined            no-undef
+  39:5  warning  'hovt' is not defined            no-undef
+  40:5  warning  'hovt' is not defined            no-undef
+  41:5  warning  'hovt' is not defined            no-undef
+  42:5  warning  'hovt' is not defined            no-undef
+  46:1  warning  'has' is not defined             no-undef
+  47:5  warning  'hovt' is not defined            no-undef
+  48:5  warning  'hovt' is not defined            no-undef
+  49:5  warning  'hovt' is not defined            no-undef
+  50:5  warning  'hovt' is not defined            no-undef
+  51:5  warning  'hovt' is not defined            no-undef
+  54:1  warning  'hconductometer' is not defined  no-undef
+  55:5  warning  'hovt' is not defined            no-undef
+  56:5  warning  'hovt' is not defined            no-undef
+  59:1  warning  'hcellstand' is not defined      no-undef
+  60:5  warning  'hovt' is not defined            no-undef
+  61:5  warning  'hovt' is not defined            no-undef
+  64:1  warning  'hcell' is not defined           no-undef
+  65:5  warning  'hovt' is not defined            no-undef
+  66:5  warning  'hovt' is not defined            no-undef
+  69:1  warning  'hcs' is not defined             no-undef
+  70:5  warning  'hovt' is not defined            no-undef
+  71:5  warning  'hovt' is not defined            no-undef
+  74:1  warning  'hss' is not defined             no-undef
+  75:5  warning  'hovt' is not defined            no-undef
+  76:5  warning  'hovt' is not defined            no-undef
+  79:1  warning  'has' is not defined             no-undef
+  80:5  warning  'hovt' is not defined            no-undef
+  81:5  warning  'hovt' is not defined            no-undef
+
+✖ 144 problems (0 errors, 144 warnings)
+

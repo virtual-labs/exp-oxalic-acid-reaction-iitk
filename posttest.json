@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. According to the experiment, in which temperature the reaction occurs fast ?",
+      "answers": {
+        "a": "200C",
+        "b": "300C",
+        "c": "400C",
+        "d": "600C"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. From the experiment, what will be your conclusion when we increase the temperature for a chemical reaction?",
+      "answers": {
+        "a": "Reaction rate decreases.",
+        "b": "Reaction rate increases.",
+        "c": "Reaction rate does not change",
+        "d": "Yield of product formation becomes change."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The reaction between potassium permanganate and oxalic acid follows  ?",
+      "answers": {
+        "a": "1st order kinetics.",
+        "b": "2nd order kinetics.",
+        "c": "Zero order kinetics.",
+        "d": "3rd order kinetics."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner" 
+    },
+    {
+      "question": "4. The unit of the activation energy is ?",
+      "answers": {
+        "a": "kJ mol-1",
+        "b": "kJ mol-1K-1",
+        "c": "kJ K-1",
+        "d": "kJ mol"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner" 
+    },
+    {
+      "question": "5. Before mixing of KMnO4 with oxalic acid, why have we kept both solution in experimental temperature for minimum 5 minutes ?",
+      "answers": {
+        "a": "To attain a temperature equilibrium among reagent solutions and water bath’s temperature.",
+        "b": "To increase the solubility of each reagent.",
+        "c": "To decrease the solubility of each reagent.",
+        "d": "To increase the reaction rate."
+},
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner" 
+    }
+  ]
+}

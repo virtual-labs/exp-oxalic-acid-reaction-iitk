@@ -1,0 +1,93 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What is activation energy?",
+      "answers": {
+        "a": "Kinetic energy of the molecules ",
+        "b":"Total energy of the reacting molecules",
+        "c":"Minimum energy required to initiate a chemical reaction",
+        "d":"Maximum energy required to initiate a chemical reaction"
+        },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 3",
+        "d": "Explanation 4"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2.Rate constant of a chemical reaction varies with?",
+      "answers": {
+        "a": "Substrate’s concentration" ,
+        "b":	"Pressure of the chemical reaction",
+        "c":	"Yield of the chemical reaction",
+        "d":"Temperature of the chemical reaction"
+        },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 3",
+        "d": "Explanation 4"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. By using the Arrhenius equation, we measure?",
+      "answers": {
+        "a": "Molecularity of a chemical reaction " ,
+        "b": "Rate constant of a chemical reaction ",
+        "c": "Order of a chemical reaction ",
+        "d": "Yield of a chemical reaction "
+        },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 3",
+        "d": "Explanation 4"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. In Arrhenius equation, the unit of A depends on  ?",
+      "answers": {
+        "a": "Activation energy only " ,
+        "b": "Activation energy and temperature.",
+        "c": "Rate constant only",
+        "d": "Activation energy, temperature, ideal gas constant and rate constant "
+        },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 3",
+        "d": "Explanation 4"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. From Arrhenius equation, the slope of ln k vs 1/T is  ?",
+      "answers": {
+        "a": "-Ea/R" ,
+        "b": "-Ea/R ",
+        "c": "-R/Ea",
+        "d": "R/Ea"
+        },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 3",
+        "d": "Explanation 4"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
+
+
+
