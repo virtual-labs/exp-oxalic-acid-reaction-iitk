@@ -19,11 +19,11 @@
       "difficulty": "beginner"
     },
     {
-      "question": "2.Rate constant of a chemical reaction varies with?",
+      "question": "2.Rate constant of a bimolecular chemical reaction varies with?",
       "answers": {
-        "a": "Substrate’s concentration" ,
+        "a": "concentration of the reactants" ,
         "b":	"Pressure of the chemical reaction",
-        "c":	"Yield of the chemical reaction",
+        "c":	"Volume of the reaction vessel",
         "d":"Temperature of the chemical reaction"
         },
       "explanations": {
@@ -36,9 +36,9 @@
       "difficulty": "beginner"
     },
     {
-      "question": "3. By using the Arrhenius equation, we measure?",
+      "question": "3. From the Arrhenius equation, we can calculate the",
       "answers": {
-        "a": "Molecularity of a chemical reaction " ,
+        "a": "molecularity of a chemical reaction " ,
         "b": "Rate constant of a chemical reaction ",
         "c": "Order of a chemical reaction ",
         "d": "Yield of a chemical reaction "
@@ -53,7 +53,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "4. In Arrhenius equation, the unit of A depends on  ?",
+      "question": "4. Using the Arrhenius equation, A can be expressed in terms of the",
       "answers": {
         "a": "Activation energy only " ,
         "b": "Activation energy and temperature.",
