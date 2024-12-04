@@ -1,1 +1,2 @@
-Molecular level understanding about the kinetics of a chemical reaction.
+Use of temperature dependent rate constant to calculate the activation energy of a reaction
+

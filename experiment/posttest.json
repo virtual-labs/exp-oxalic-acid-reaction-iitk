@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. According to the experiment, in which temperature the reaction occurs fast ?",
+      "question": "1. According to the experiment, at which temperatures below is the reaction fastest ?",
       "answers": {
         "a": "200C",
         "b": "300C",
@@ -24,7 +24,7 @@
         "a": "Reaction rate decreases.",
         "b": "Reaction rate increases.",
         "c": "Reaction rate does not change",
-        "d": "Yield of product formation becomes change."
+        "d": "Cannot predict how the reaction rate changes"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -70,7 +70,7 @@
       "difficulty": "beginner" 
     },
     {
-      "question": "5. Before mixing of KMnO4 with oxalic acid, why have we kept both solution in experimental temperature for minimum 5 minutes ?",
+      "question": "5. Before mixing of KMnO4 with oxalic acid, why have we kept both solution solutions in the water bath for 5 minutes?",
       "answers": {
         "a": "To attain a temperature equilibrium among reagent solutions and water bath’s temperature.",
         "b": "To increase the solubility of each reagent.",
