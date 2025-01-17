@@ -48,6 +48,25 @@ function stopWatch() {
   
         document.getElementById('min').innerHTML = minString; 
         document.getElementById('sec').innerHTML = secString; 
-        setTimeout(stopWatch, 1000); 
+
+        if(oner==102 && colorchangerstatus=="off" && (parseInt(document.querySelector("#min").innerText)==5) && (parseInt(document.querySelector("#sec").innerText)==0)){
+                f=206
+                stopBtn()
+                ptext.innerText="Waiting time is over now"
+                setTimeout(function(){
+                    popup.style.visibility="visible"
+                    popuphider()
+                    counter=5
+                    update()
+                },500)
+        }
+        else if(colorchangerstatus=="on" ){
+            colourchanger()
+        }
+
+
+
+
+        setTimeout(stopWatch, 100); 
     } 
 }
