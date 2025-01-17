@@ -170,7 +170,11 @@ function testtube(){
                                     counter=6
                                     update()
                                     startBtn()
-                                    colourchanger()
+                                    // colourchanger()
+                                    colorchangerstatus="on"
+                                    flaskchange.style.visibility="visible"
+                                    flaskchange.style.animation="mix"
+
                                 },1000)
                                 f=208
                             },1000)
@@ -215,17 +219,17 @@ function on110(){
         // on10.style.border="none"
         setTimeout(function(){
             startBtn()
-            setTimeout(function(){
-                f=206
-                stopBtn()
-                ptext.innerText="Waiting time is over now"
-                setTimeout(function(){
-                    popup.style.visibility="visible"
-                    popuphider()
-                    counter=5
-                    update()
-                },500)
-            },305000)
+            // setTimeout(function(){
+            //     f=206
+            //     stopBtn()
+            //     ptext.innerText="Waiting time is over now"
+            //     setTimeout(function(){
+            //         popup.style.visibility="visible"
+            //         popuphider()
+            //         counter=5
+            //         update()
+            //     },500)
+            // },30500)
         },1000)
         oner=102
 
@@ -234,11 +238,17 @@ function on110(){
     }
 }
 
+
+
+var colorchangerstatus = "off"
+
+
 function colourchanger(){
-    flaskchange.style.visibility="visible"
-    flaskchange.style.animation="mix"
-    if(trial=="0st"){
-        setTimeout(function(){
+    // colorchangerstatus="on"
+    // flaskchange.style.visibility="visible"
+    // flaskchange.style.animation="mix"
+    if(trial=="0st" && (parseInt(document.querySelector("#min").innerText)==2) && (parseInt(document.querySelector("#sec").innerText)==20)){
+        // setTimeout(function(){
             stopBtn()
             ptext.innerText="The transformation of the mixture was complete after 140 seconds"
             popup.style.visibility="visible"
@@ -251,14 +261,15 @@ function colourchanger(){
             flaskmix.style.animation="none"
             counter=7
             update()
-        },140000)
+            colorchangerstatus="off"
+        // },14000)
         setTimeout(function(){
             flaskchange.style.opacity="100%"
             flaskmix.style.opacity="0%"
-        },139000)
+        },100)
     }
-    else if(trial=="1st"){
-        setTimeout(function(){
+    else if(trial=="1st" && (parseInt(document.querySelector("#min").innerText)==1) && (parseInt(document.querySelector("#sec").innerText)==32)){
+        // setTimeout(function(){
             stopBtn()
             ptext.innerText="The transformation of the mixture was complete after 92 seconds"
             popup.style.visibility="visible"
@@ -271,14 +282,15 @@ function colourchanger(){
             flaskmix.style.animation="none"
             counter=in2
             update()
-        },92000)
+            colorchangerstatus="off"
+        // },9200)
         setTimeout(function(){
             flaskchange.style.opacity="100%"
             flaskmix.style.opacity="0%"
-        },91000)
+        },100)
     }
-    else if(trial=="2st"){
-        setTimeout(function(){
+    else if(trial=="2st" && (parseInt(document.querySelector("#min").innerText)==0) && (parseInt(document.querySelector("#sec").innerText)==40)){
+        // setTimeout(function(){
             stopBtn()
             ptext.innerText="The transformation of the mixture was complete after 40 seconds"
             popup.style.visibility="visible"
@@ -291,14 +303,15 @@ function colourchanger(){
             flaskmix.style.animation="none"
             counter=in2
             update()
-        },40000)
+            colorchangerstatus="off"
+        // },4000)
         setTimeout(function(){
             flaskchange.style.opacity="100%"
             flaskmix.style.opacity="0%"
-        },39000)
+        },100)
     }
-    else if(trial=="3st"){
-        setTimeout(function(){
+    else if(trial=="3st" && (parseInt(document.querySelector("#min").innerText)==0) && (parseInt(document.querySelector("#sec").innerText)==25)){
+        // setTimeout(function(){
             stopBtn()
             ptext.innerText="The transformation of the mixture was complete after 25 seconds"
             popup.style.visibility="visible"
@@ -311,14 +324,15 @@ function colourchanger(){
             flaskmix.style.animation="none"
             counter=in2
             update()
-        },25000)
+            colorchangerstatus="off"
+        // },2500)
         setTimeout(function(){
             flaskchange.style.opacity="100%"
             flaskmix.style.opacity="0%"
-        },24000)
+        },100)
     }
-    else if(trial=="4st"){
-        setTimeout(function(){
+    else if(trial=="4st" && (parseInt(document.querySelector("#min").innerText)==0) && (parseInt(document.querySelector("#sec").innerText)==9)){
+        // setTimeout(function(){
             stopBtn()
             ptext.innerText="The transformation of the mixture was complete after 9 seconds"
             popup.style.visibility="visible"
@@ -332,15 +346,26 @@ function colourchanger(){
             flaskmix.style.animation="none"
             counter=15
             update()
-        },9000)
+            colorchangerstatus="off"
+        // },900)
         setTimeout(function(){
             flaskchange.style.opacity="100%"
             flaskmix.style.opacity="0%"
-        },8000)
+        },100)
     }
 
     
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
