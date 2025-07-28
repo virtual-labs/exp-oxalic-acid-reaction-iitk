@@ -1,6 +1,6 @@
 const messages = [ 
 "Make yourself familiar with the equipments by hovering over them. and Press the Start button to initiate the reaction.",   
-"Pick up the pipette and dispense 20 mL of (0.05(M)) oxalic acid into a conical flask. Then, Click on the pipette to transfer 10 mL of (0.02(M)) KMnO4 solution into a test tube.",
+"Pick up the pipette and dispense 20 mL of (0.05(M)) oxalic acid into a conical flask. Then, Wash the pipette and Click on the pipette to transfer 10 mL of (0.02(M)) KMnO4 solution into a test tube.",
 "Click 'Next' button.",
 "Turn on the temperature bath by clicking the 'ON/OFF Heating' button and set the water bath temperature to 20°C (Allowed range of temperatures) after that Click on 'Next' button.",
 "Click on the thermometer, test tube and conical flask. Place all three vessels in the water bath to equilibrate for at least 2 minutes. (Click the 'ON/OFF Time' button. Timer will appear).",

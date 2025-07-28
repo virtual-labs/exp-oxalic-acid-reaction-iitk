@@ -19,6 +19,7 @@ var table1 = document.querySelector("#table1")
 var graph = document.querySelector("#graph")
 var graphtext = document.querySelector("#graphtext")
 var formula = document.querySelector("#formula")
+var condistilled_water_flask= document.querySelector("#distilledFlask")
 
 
 
@@ -42,6 +43,7 @@ function start1(){
         cstand.style.visibility="hidden"
         tmeter.style.visibility="hidden"
         next.style.visibility="hidden"
+        condistilled_water_flask.style.visibility= "visible"
         next.innerText="Next"
         resize()
         counter=1
@@ -173,159 +175,189 @@ function pipet1(){
 
 
 
-
-function simulation1st(){
-    if (f==1){
-        pipetresize()
-        f=2
-        pipet10.style.visibility="visible"
-        pipet.style.transform="translate(0%,-840%) rotate(-90deg)"
-        setTimeout(function(){
-            pipet.style.transform="translate(170%,-840%) rotate(-90deg)"
-            setTimeout(function(){
-                pipet.style.transform="translate(170%,-500%) rotate(-90deg)"
-
-                setTimeout(function(){
-                    pipet10.style.opacity="100%"
-                    pipet.style.opacity="0%"
-                    setTimeout(function(){
-                        pipet10.style.transform="translate(0%,-60%)"
-                        pipet.style.transform="translate(170%,-840%) rotate(-90deg)"
-                        setTimeout(function(){
-                            pipet10.style.transform="translate(-1280%,-60%)"
-                            pipet.style.transform="translate(-56%,-840%) rotate(-90deg)"
-                            setTimeout(function(){
-                                pipet10.style.transform="translate(-1280%,0%)"
-                                pipet.style.transform="translate(-56%,-500%) rotate(-90deg)"
-                                flask10ml.style.visibility="visible"
-                                drop.style.visibility="visible"
-                                setTimeout(function(){
-                                    ecflask.style.visibility="hidden"
-                                    drop.style.opacity="100%"
-                                    flask10ml.style.opacity="100%"
-                                    drop.style.transform="translate(0%,100%)"
-                                    setTimeout(function(){
-                                        drop.style.opacity="0%"
-                                        pipet10.style.opacity="0%"
-                                        pipet.style.opacity="100%"
-                                        pipet10.style.visibility="hidden"
-                                        f=3
-                                    },500)
-                                },1000)
-                            },1000)
-                        },1000)
-                    },1000)
-                },1000)
-            },1000)
-        },1000)
+function simulation1st() {
+    if (f == 1) {
+        pipetresize();
+        f = 2;
+        pipet10.style.visibility = "visible";
+        pipet.style.transform = "translate(0%,-840%) rotate(-90deg)";
+        setTimeout(function () {
+            pipet.style.transform = "translate(170%,-840%) rotate(-90deg)";
+            setTimeout(function () {
+                pipet.style.transform = "translate(170%,-500%) rotate(-90deg)";
+                setTimeout(function () {
+                    pipet10.style.opacity = "100%";
+                    pipet.style.opacity = "0%";
+                    setTimeout(function () {
+                        pipet10.style.transform = "translate(0%,-60%)";
+                        pipet.style.transform = "translate(170%,-840%) rotate(-90deg)";
+                        setTimeout(function () {
+                            pipet10.style.transform = "translate(-1280%,-60%)";
+                            pipet.style.transform = "translate(-56%,-840%) rotate(-90deg)";
+                            setTimeout(function () {
+                                pipet10.style.transform = "translate(-1280%,0%)";
+                                pipet.style.transform = "translate(-56%,-500%) rotate(-90deg)";
+                                flask10ml.style.visibility = "visible";
+                                drop.style.visibility = "visible";
+                                setTimeout(function () {
+                                    ecflask.style.visibility = "hidden";
+                                    drop.style.opacity = "100%";
+                                    flask10ml.style.opacity = "100%";
+                                    drop.style.transform = "translate(0%,100%)";
+                                    setTimeout(function () {
+                                        drop.style.opacity = "0%";
+                                        pipet10.style.opacity = "0%";
+                                        pipet.style.opacity = "100%";
+                                        pipet10.style.visibility = "hidden";
+                                        f = 3;
+                                    }, 500);
+                                }, 1000);
+                            }, 1000);
+                        }, 1000);
+                    }, 1000);
+                }, 1000);
+            }, 1000);
+        }, 1000);
     }
 
-    else if (f==3){
-        pipet10.style.visibility="visible"
-        pipet.style.transform="translate(-55%,-840%) rotate(-90deg)"
-        pipet10.style.transform="translate(-1280%,-60%)"
-        f=4
-        setTimeout(function(){
-            pipet10.style.transform="translate(-500%,-60%)"
-            pipet.style.transform="translate(170%,-840%) rotate(-90deg)"
-            setTimeout(function(){
-                pipet10.style.transform="translate(0%,0%)"
-                pipet.style.transform="translate(170%,-500%) rotate(-90deg)"
-            setTimeout(function(){
-            pipet10.style.opacity="100%"
-            pipet.style.opacity="0%"
-            setTimeout(function(){
-                pipet10.style.transform="translate(0%,-60%)"
-                pipet.style.transform="translate(170%,-840%) rotate(-90deg)"
-                setTimeout(function(){
-                    pipet10.style.transform="translate(-1280%,-60%)"
-                    pipet.style.transform="translate(-56%,-840%) rotate(-90deg)"
-                    setTimeout(function(){
-                        pipet10.style.transform="translate(-1280%,0%)"
-                        pipet.style.transform="translate(-56%,-500%) rotate(-90deg)"
-                        flask20ml.style.visibility="visible"
-                        drop.style.visibility="visible"
-                        setTimeout(function(){
-                            flask10ml.style.visibility="hidden"
-                            drop.style.opacity="100%"
-                            flask20ml.style.opacity="100%"
-                            drop.style.transform="translate(0%,100%)"
-                            setTimeout(function(){
-                                drop.style.opacity="0%"
-                                pipet10.style.opacity="0%"
-                                pipet.style.opacity="100%"
-                                pipet10.style.visibility="hidden"
-                                f=5
-                            },500)
-                        },1000)
-                    },1000)
-                },1000)
-            },1000)
-        },1000)
-
-    },1000)
-    },1000)
+     else if (f == 3) {
+        pipet10.style.visibility = "visible";
+        pipet.style.transform = "translate(-55%,-840%) rotate(-90deg)";
+        pipet10.style.transform = "translate(-1280%,-60%)";
+        f = 4;
+        setTimeout(function () {
+            pipet10.style.transform = "translate(-500%,-60%)";
+            pipet.style.transform = "translate(170%,-840%) rotate(-90deg)";
+            setTimeout(function () {
+                pipet10.style.transform = "translate(0%,0%)";
+                pipet.style.transform = "translate(170%,-500%) rotate(-90deg)";
+                setTimeout(function () {
+                    pipet10.style.opacity = "100%";
+                    pipet.style.opacity = "0%";
+                    setTimeout(function () {
+                        pipet10.style.transform = "translate(0%,-60%)";
+                        pipet.style.transform = "translate(170%,-840%) rotate(-90deg)";
+                        setTimeout(function () {
+                            pipet10.style.transform = "translate(-1280%,-60%)";
+                            pipet.style.transform = "translate(-56%,-840%) rotate(-90deg)";
+                            setTimeout(function () {
+                                pipet10.style.transform = "translate(-1280%,0%)";
+                                pipet.style.transform = "translate(-56%,-500%) rotate(-90deg)";
+                                flask20ml.style.visibility = "visible";
+                                drop.style.visibility = "visible";
+                                setTimeout(function () {
+                                    flask10ml.style.visibility = "hidden";
+                                    drop.style.opacity = "100%";
+                                    flask20ml.style.opacity = "100%";
+                                    drop.style.transform = "translate(0%,100%)";
+                                    setTimeout(function () {
+                                        drop.style.opacity = "0%";
+                                        pipet10.style.opacity = "0%";
+                                        pipet.style.opacity = "100%";
+                                        pipet10.style.visibility = "hidden";
+                                        f = 5;
+                                        rinsePipette(); // <- 🔁 NEW step added here
+                                    }, 500);
+                                }, 1000);
+                            }, 1000);
+                        }, 1000);
+                    }, 1000);
+                }, 1000);
+            }, 1000);
+        }, 1000);
     }
 
-    else if(f==5){
-        pipetkmno4.style.visibility="visible"
-        pipetkmno4.style.transform="translate(-430%,0%)"
-        pipet.style.transform="translate(-55%,-840%) rotate(-90deg)"
-        pipet10.style.transform="translate(-1280%,-60%)"
-        f=6
-        setTimeout(function(){
-            pipet10.style.transform="translate(0%,-60%)"
-            pipet.style.transform="translate(93%,-840%) rotate(-90deg)"
-            setTimeout(function(){
-                pipet10.style.transform="translate(0%,0%)"
-                pipet.style.transform="translate(93%,-500%) rotate(-90deg)"
-            setTimeout(function(){
-            pipetkmno4.style.opacity="100%"
-            pipet.style.opacity="0%"
-            setTimeout(function(){
-                pipetkmno4.style.transform="translate(-430%,-60%)"
-                pipet.style.transform="translate(93%,-840%) rotate(-90deg)"
-                setTimeout(function(){
-                    pipetkmno4.style.transform="translate(-2020%,-110%)"
-                    pipet.style.transform="translate(-187%,-1120%) rotate(-90deg)"
-                    setTimeout(function(){
-                        pipetkmno4.style.transform="translate(-2020%,-50%)"
-                        pipet.style.transform="translate(-187%,-800%) rotate(-90deg)"
-                        ttube2.style.visibility="visible"
-                        drop.style.visibility="hidden"
-                        setTimeout(function(){
-                            ttube.style.visibility="hidden"
-                            drop.style.opacity="100%"
-                            ttube2.style.opacity="100%"
-                            drop.style.transform="translate(0%,100%)"
-                            setTimeout(function(){
-                                drop.style.opacity="0%"
-                                pipetkmno4.style.opacity="0%"
-                                pipet.style.opacity="100%"
-                                setTimeout(function(){
-                                    pipet.style.transform="translate(-187%,-1120%) rotate(-90deg)"
-                                    setTimeout(function(){
-                                        pipet.style.transform="translate(0%,0%) rotate(0deg)"
-                                        pipetkmno4.style.transform="translate(0%,0%)"
-                                        pipetkmno4.style.visibility="hidden"
-                                        f=7
-                                        sample+=2
-                                        counter=2
-                                        update()
-                                        next.style.visibility="visible"
-                                    },1000)
-                                },1000)
-                            },500)
-                        },1000)
-                    },1000)
-                },1000)
-            },1000)
-        },1000)
-
-    },1000)
-    },1000)
+    else if (f == 6) {
+        pipetkmno4.style.visibility = "visible";
+        pipetkmno4.style.transform = "translate(-430%,0%)";
+        pipet.style.transform = "translate(93%,-840%) rotate(-90deg)";
+        pipet10.style.transform = "translate(-1280%,-60%)";
+        setTimeout(function () {
+            pipet10.style.transform = "translate(0%,-60%)";
+            pipet.style.transform = "translate(93%,-840%) rotate(-90deg)";
+            setTimeout(function () {
+                pipet10.style.transform = "translate(0%,0%)";
+                pipet.style.transform = "translate(93%,-500%) rotate(-90deg)";
+                setTimeout(function () {
+                    pipetkmno4.style.opacity = "100%";
+                    pipet.style.opacity = "0%";
+                    setTimeout(function () {
+                        pipetkmno4.style.transform = "translate(-430%,-60%)";
+                        pipet.style.transform = "translate(93%,-840%) rotate(-90deg)";
+                        setTimeout(function () {
+                            pipetkmno4.style.transform = "translate(-2020%,-110%)";
+                            pipet.style.transform = "translate(-187%,-1120%) rotate(-90deg)";
+                            setTimeout(function () {
+                                pipetkmno4.style.transform = "translate(-2020%,-50%)";
+                                pipet.style.transform = "translate(-187%,-800%) rotate(-90deg)";
+                                ttube2.style.visibility = "visible";
+                                drop.style.visibility = "hidden";
+                                setTimeout(function () {
+                                    ttube.style.visibility = "hidden";
+                                    drop.style.opacity = "100%";
+                                    ttube2.style.opacity = "100%";
+                                    drop.style.transform = "translate(0%,100%)";
+                                    setTimeout(function () {
+                                        drop.style.opacity = "0%";
+                                        pipetkmno4.style.opacity = "0%";
+                                        pipet.style.opacity = "100%";
+                                        setTimeout(function () {
+                                            pipet.style.transform = "translate(-187%,-1120%) rotate(-90deg)";
+                                            setTimeout(function () {
+                                                pipet.style.transform = "translate(0%,0%) rotate(0deg)";
+                                                pipetkmno4.style.transform = "translate(0%,0%)";
+                                                pipetkmno4.style.visibility = "hidden";
+                                                f = 7;
+                                                sample += 2;
+                                                counter = 2;
+                                                update();
+                                                next.style.visibility = "visible";
+                                            }, 1000);
+                                        }, 1000);
+                                    }, 500);
+                                }, 1000);
+                            }, 1000);
+                        }, 1000);
+                    }, 1000);
+                }, 1000);
+            }, 1000);
+        }, 1000);
     }
 }
+
+function rinsePipette() {
+    if (f === 5) {
+        f = 5.5; // intermediate step to prevent accidental re-trigger
+        distilledFlask.style.visibility = "visible";
+        
+        // Move pipette to distilled water
+        pipet.style.transform = "translate(223%, -357%) rotate(-90deg)";
+        setTimeout(function () {
+            drop.style.top = "37%";
+            drop.style.left= "79%";
+            drop.style.visibility = "visible";
+            drop.style.opacity = "100%";   
+            drop.style.opacity = "0";
+            
+            drop.style.transform = "translate(0%, 100%)";
+
+            setTimeout(function () {
+                // Finish rinse
+                drop.style.opacity = "1";
+                drop.style.visibility = "visible";
+                distilledFlask.style.visibility = "visible";
+
+                // Return pipette
+                //pipet.style.transform = "translate(-550%, -3000%) rotate(-90deg)";
+                
+                // Continue with KMnO₄ transfer
+                f = 6;
+                simulation1st();
+            }, 1000);
+        }, 1000);
+    }
+}
+
 
 function pipetresize(){
     flask20ml.style.visibility="hidden"
