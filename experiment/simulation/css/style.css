@@ -358,6 +358,13 @@ html, body {
   scale: 0.9;
   
 }
+#distilledFlask{
+    position: absolute;
+    top: 38%;
+    left: 75%;
+    height: 23%;
+    visibility: hidden;
+}
 
 #flaskchange{
   left: 59%;
@@ -378,15 +385,16 @@ html, body {
 
 
 #drop{
-  left: 43%;
+  left: 42.5%;
   position: absolute;
-  top: 50%;
-  height: 3%;
-  width: 1%;
+  top: 48%;
+  height: 5%;
+  width: 2%;
   transition: all;
   transition-duration: 1S;
-  opacity: 0%;
+  opacity: 0;
   visibility: hidden;
+  transform: translate(100%, 100%);
 }
 
 
@@ -443,7 +451,7 @@ html, body {
 #tmeter20{
   left: 57.2%;
   position: absolute;
-  top: 18%;
+  top: 22%;
   height: 3.3%;
   width: 14%;
   transition: all;

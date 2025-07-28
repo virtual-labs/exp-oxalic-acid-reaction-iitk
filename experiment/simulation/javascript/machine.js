@@ -12,6 +12,7 @@ var on10 = document.querySelector("#on10")
 var timer1 = document.querySelector("#time")
 var flaskmix = document.querySelector("#flaskmix")
 var flaskchange = document.querySelector("#flaskchange")
+var tmeter = document.querySelector("#tmeter")
 
 
 // var updator = values.innerText
@@ -97,14 +98,14 @@ function thermometer(){
         tmeter20.style.visibility="visible"
         setTimeout(function(){
             tmeter.style.left="57.2%"
-            tmeter.style.top="18%"
+            tmeter.style.top="20%"
             setTimeout(function(){
                 temptmeter.style.opacity="100%"
                 tmeter.style.opacity="0%"
                 f=201
                 setTimeout(function(){
                     tmeter.style.visibility="hidden"
-                    tmeter.style.top="59%"
+                    tmeter.style.top="62%"
                     tmeter.style.left="17%"
                     tmeter.style.rotate="0deg"
                 },1000)
@@ -115,20 +116,46 @@ function thermometer(){
 }
 
 function testtube(){
-        if(f==201){
-            f=202
-            ttube2.style.top="-2%"
-            ttube.style.top="-2%"
-            setTimeout(function(){
-                ttube2.style.left="58.5%"
-                ttube.style.left="58.5%"
-                setTimeout(function(){
-                    ttube2.style.top="2%"
-                    ttube.style.top="2%"
-                    f=203
-                },1000)    
-            },1000)
-        }
+        // if(f==201){
+        //     f=202
+        //     ttube2.style.top="-2%"
+        //     ttube.style.top="-2%"
+        //     setTimeout(function(){
+        //         ttube2.style.left="58.5%"
+        //         ttube.style.left="58.5%"
+        //         setTimeout(function(){
+        //             ttube2.style.top="2%"
+        //             f=203
+        //         },1000)    
+        //     },1000)
+        // }
+        if (f == 201) {
+        f = 202;
+        ttube2.style.top = "-2%";
+        ttube.style.top = "-2%";
+
+    setTimeout(function () {
+        ttube2.style.left = "58.5%";
+        ttube.style.left = "58.5%";
+
+        setTimeout(function () {
+            ttube2.style.top = "8%";
+
+            // ✅ Apply submerged visual effect here
+            ttube2.style.maskImage = "linear-gradient(to bottom, black 0%, black 55%, rgba(0,0,0,0.5) 65%, rgba(0,0,0,0.2) 80%, transparent 100%)";
+            ttube2.style.webkitMaskImage = "linear-gradient(to bottom, black 0%, black 55%, rgba(0,0,0,0.5) 65%, rgba(0,0,0,0.2) 80%, transparent 100%)";
+            ttube2.style.filter = "brightness(0.95) blur(0.3px)";
+
+            // Do the same for the other test tube element if needed
+            ttube.style.maskImage = "linear-gradient(to bottom, black 0%, black 55%, rgba(0,0,0,0.5) 65%, rgba(0,0,0,0.2) 80%, transparent 100%)";
+            ttube.style.webkitMaskImage = "linear-gradient(to bottom, black 0%, black 55%, rgba(0,0,0,0.5) 65%, rgba(0,0,0,0.2) 80%, transparent 100%)";
+            ttube.style.filter = "brightness(0.95) blur(0.3px)";
+
+            f = 203;
+        }, 1000);
+    }, 1000);
+}
+
         if(f==206){
             // stopBtn()
             resetBtn()
@@ -186,26 +213,56 @@ function testtube(){
         }
 }
 
-function flask20mlwala(){
-    if(f==203){
-        f=204
-        flask20ml.style.top="16%"
-        setTimeout(function(){
-            flask20ml.style.left="59%"
-            flask20ml.style.scale="0.9"
-            flask20ml.style.width="5.5%"
-            flask20ml.style.height="19%"
-            setTimeout(function(){
-                flask20ml.style.top="17%"
-                buttons2.style.visibility="visible"
-                timer1.style.visibility="visible"
-                oner=101
-                resetBtn()
-                f=205
-            },1000)
-        },1000)
+// function flask20mlwala(){
+//     if(f==203){
+//         f=204
+//         flask20ml.style.top="16%"
+//         setTimeout(function(){
+//             flask20ml.style.left="59%"
+//             flask20ml.style.scale="0.9"
+//             flask20ml.style.width="5.5%"
+//             flask20ml.style.height="19%"
+//             setTimeout(function(){
+//                 flask20ml.style.top="17%"
+//                 buttons2.style.visibility="visible"
+//                 timer1.style.visibility="visible"
+//                 oner=101
+//                 resetBtn()
+//                 f=205
+//             },1000)
+//         },1000)
+//     }
+// }
+function flask20mlwala() {
+    if (f == 203) {
+        f = 204;
+        flask20ml.style.top = "16%";
+
+        setTimeout(function () {
+            flask20ml.style.left = "59%";
+            flask20ml.style.scale = "0.9";
+            flask20ml.style.width = "5.5%";
+            flask20ml.style.height = "22%";
+
+            setTimeout(function () {
+                flask20ml.style.top = "18%";
+
+                // Submerged visual effect
+                flask20ml.style.maskImage = "linear-gradient(to bottom, black 0%, black 60%, rgba(0,0,0,0.5) 70%, rgba(0,0,0,0.2) 85%, transparent 100%)";
+                flask20ml.style.webkitMaskImage = "linear-gradient(to bottom, black 0%, black 60%, rgba(0,0,0,0.5) 70%, rgba(0,0,0,0.2) 85%, transparent 100%)";
+                flask20ml.style.filter = "brightness(0.9) blur(0.4px)";
+                flask20ml.style.opacity = "100%";
+
+                buttons2.style.visibility = "visible";
+                timer1.style.visibility = "visible";
+                oner = 101;
+                resetBtn();
+                f = 205;
+            }, 1000);
+        }, 1000);
     }
 }
+
 
 
 
