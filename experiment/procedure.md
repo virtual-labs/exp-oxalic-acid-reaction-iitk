@@ -1,3 +1,10 @@
+1.	Prepare 0.5 M oxalic acid and 0.02 M KMnO4 in a cleaned suitable volumetric flask. Pipette out 20 mL of oxalic acid and 10 ml of KMnO4 in a conical flask and a test tube respectively. <br>
+2.	Set the temperature of water bath up to the allowed range and place both the vessels into the water bath. Allow a 5 min equilibrium time for both of them. <br>
+3.	Add the oxalic acid into the conical flask and start the stop watch to record time. <br>
+4.	Swirl the reaction mixture regularly keeping it to the water bath. <br>
+5.	Pause and record the time of the stop watch when the reaction mixture turned to purple from yellow/brown (completion of reaction). <br>
+6.	Repeat the same procedure for 4 other temperatures and determine the activation energy of the reaction. <br>
+
 <b>Materials & Reagents Required: </b>
 
 1)  Temperature controlled water bath.
