@@ -4,10 +4,10 @@
     {
       "question": "1. According to the experiment, at which temperatures below is the reaction fastest ?",
       "answers": {
-        "a": "200C",
-        "b": "300C",
-        "c": "400C",
-        "d": "600C"
+        "a": "200°C",
+        "b": "300°C",
+        "c": "400°C",
+        "d": "600°C"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -55,9 +55,9 @@
     {
       "question": "4. The unit of the activation energy is ?",
       "answers": {
-        "a": "kJ mol-1",
-        "b": "kJ mol-1K-1",
-        "c": "kJ K-1",
+        "a": "kJ mol<sup>-1</sup>",
+        "b": "kJ mol<sup>-1</sup>K<sup>-1</sup>",
+        "c": "kJ K<sup>-1</sup>",
         "d": "kJ mol"
       },
       "explanations": {
