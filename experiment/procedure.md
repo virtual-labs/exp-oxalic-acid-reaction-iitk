@@ -29,18 +29,15 @@
 <br>
 <img src="images/fig6.jpg"width="300" height="300" alt="">
 <br>
-<b>Data and the analysis:</b>
+<!--<b>Data and the analysis:</b>
 <br>
 After mixing 20 mL, 0.5(M) oxalic acid with 0.02(M) KMnO4, <br>
 The Concentration of KMnO4 becomes = 0.0067 (M)<br>
-The Concentration of Oxalic acid becomes = 0.33 (M)<br>
- 
+The Concentration of Oxalic acid becomes = 0.33 (M)<br> 
 We have calculated the rate by using following equation<br>
 Rate= [KMnO4]/time<br>
-
 Next, we have measured rate constant (k) by using following equation<br>
 k = rate / [KMnO4] [Oxalic Acid]<br>
-
 <img src="images/table(1).png"><br>
 <br>
 <img src="images/fig7.jpg" width="400" height="300" alt="">
