@@ -2,38 +2,67 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. What is activation energy?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+        "a": "Kinetic energy of the molecules ",
+        "b":"Total energy of the reacting molecules",
+        "c":"Minimum energy required to initiate a chemical reaction",
+        "d":"Maximum energy required to initiate a chemical reaction"
+        },
+      
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2.Rate constant of a bimolecular chemical reaction varies with?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+        "a": "concentration of the reactants" ,
+        "b":	"Pressure of the chemical reaction",
+        "c":	"Volume of the reaction vessel",
+        "d":"Temperature of the chemical reaction"
+        },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. From the Arrhenius equation, we can calculate the",
+      "answers": {
+        "a": "molecularity of a chemical reaction " ,
+        "b": "Rate constant of a chemical reaction ",
+        "c": "Order of a chemical reaction ",
+        "d": "Yield of a chemical reaction "
+        },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Using the Arrhenius equation, A can be expressed in terms of the",
+      "answers": {
+        "a": "Activation energy only " ,
+        "b": "Activation energy and temperature.",
+        "c": "Rate constant only",
+        "d": "Activation energy, temperature, ideal gas constant and rate constant "
+        },
+      
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. From Arrhenius equation, the slope of ln k vs 1/T is  ?",
+      "answers": {
+        "a": "-Ea/R" ,
+        "b": "-Ea/R ",
+        "c": "-R/Ea",
+        "d": "R/Ea"
+        },
+      
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
 }
+
+
+
