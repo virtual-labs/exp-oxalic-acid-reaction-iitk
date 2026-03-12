@@ -1,0 +1,192 @@
+
+/home/runner/work/exp-oxalic-acid-reaction-iitk/exp-oxalic-acid-reaction-iitk/experiment/simulation/javascript/machine.js
+    2:5   warning  'plus1' is assigned a value but never used               no-unused-vars
+    3:5   warning  'minus1' is assigned a value but never used              no-unused-vars
+    5:5   warning  'machinedv' is assigned a value but never used           no-unused-vars
+   11:5   warning  'on10' is assigned a value but never used                no-unused-vars
+   23:5   warning  'in1' is assigned a value but never used                 no-unused-vars
+   31:10  warning  'on1' is defined but never used                          no-unused-vars
+   41:10  warning  'plus2' is defined but never used                        no-unused-vars
+   45:13  warning  'f' is not defined                                       no-undef
+   51:10  warning  'minus2' is defined but never used                       no-unused-vars
+   55:13  warning  'f' is not defined                                       no-undef
+   60:10  warning  'verify' is defined but never used                       no-unused-vars
+   64:13  warning  'f' is not defined                                       no-undef
+   65:13  warning  'resizemachine' is not defined                           no-undef
+   66:13  warning  'next' is not defined                                    no-undef
+   70:13  warning  'counter' is not defined                                 no-undef
+   71:13  warning  'update' is not defined                                  no-undef
+   89:10  warning  'machinedivhide' is defined but never used               no-unused-vars
+   91:5   warning  'reading' is not defined                                 no-undef
+   94:10  warning  'thermometer' is defined but never used                  no-unused-vars
+   95:8   warning  'f' is not defined                                       no-undef
+  105:17  warning  'f' is not defined                                       no-undef
+  118:10  warning  'testtube' is defined but never used                     no-unused-vars
+  132:13  warning  'f' is not defined                                       no-undef
+  133:9   warning  'f' is not defined                                       no-undef
+  134:9   warning  'ttube2' is not defined                                  no-undef
+  135:9   warning  'ttube' is not defined                                   no-undef
+  138:9   warning  'ttube2' is not defined                                  no-undef
+  139:9   warning  'ttube' is not defined                                   no-undef
+  142:13  warning  'ttube2' is not defined                                  no-undef
+  145:13  warning  'ttube2' is not defined                                  no-undef
+  146:13  warning  'ttube2' is not defined                                  no-undef
+  147:13  warning  'ttube2' is not defined                                  no-undef
+  150:13  warning  'ttube' is not defined                                   no-undef
+  151:13  warning  'ttube' is not defined                                   no-undef
+  152:13  warning  'ttube' is not defined                                   no-undef
+  154:13  warning  'f' is not defined                                       no-undef
+  159:12  warning  'f' is not defined                                       no-undef
+  161:13  warning  'resetBtn' is not defined                                no-undef
+  162:13  warning  'f' is not defined                                       no-undef
+  163:13  warning  'ttube2' is not defined                                  no-undef
+  164:13  warning  'ttube' is not defined                                   no-undef
+  166:17  warning  'ttube2' is not defined                                  no-undef
+  167:17  warning  'ttube' is not defined                                   no-undef
+  169:21  warning  'ttube2' is not defined                                  no-undef
+  170:21  warning  'ttube2' is not defined                                  no-undef
+  171:21  warning  'ttube' is not defined                                   no-undef
+  172:21  warning  'ttube' is not defined                                   no-undef
+  175:25  warning  'ttube' is not defined                                   no-undef
+  176:25  warning  'ttube2' is not defined                                  no-undef
+  177:25  warning  'ttube' is not defined                                   no-undef
+  178:25  warning  'flask20ml' is not defined                               no-undef
+  181:29  warning  'ttube2' is not defined                                  no-undef
+  182:29  warning  'flask20ml' is not defined                               no-undef
+  183:29  warning  'ttube' is not defined                                   no-undef
+  184:29  warning  'ttube' is not defined                                   no-undef
+  185:29  warning  'ttube' is not defined                                   no-undef
+  186:29  warning  'ttube2' is not defined                                  no-undef
+  187:29  warning  'ttube2' is not defined                                  no-undef
+  188:29  warning  'ttube2' is not defined                                  no-undef
+  190:33  warning  'ttube' is not defined                                   no-undef
+  191:33  warning  'ttube2' is not defined                                  no-undef
+  197:37  warning  'counter' is not defined                                 no-undef
+  198:37  warning  'update' is not defined                                  no-undef
+  199:37  warning  'startBtn' is not defined                                no-undef
+  206:33  warning  'f' is not defined                                       no-undef
+  236:10  warning  'flask20mlwala' is defined but never used                no-unused-vars
+  237:9   warning  'f' is not defined                                       no-undef
+  238:9   warning  'f' is not defined                                       no-undef
+  239:9   warning  'flask20ml' is not defined                               no-undef
+  242:13  warning  'flask20ml' is not defined                               no-undef
+  243:13  warning  'flask20ml' is not defined                               no-undef
+  244:13  warning  'flask20ml' is not defined                               no-undef
+  245:13  warning  'flask20ml' is not defined                               no-undef
+  248:17  warning  'flask20ml' is not defined                               no-undef
+  251:17  warning  'flask20ml' is not defined                               no-undef
+  252:17  warning  'flask20ml' is not defined                               no-undef
+  253:17  warning  'flask20ml' is not defined                               no-undef
+  254:17  warning  'flask20ml' is not defined                               no-undef
+  259:17  warning  'resetBtn' is not defined                                no-undef
+  260:17  warning  'f' is not defined                                       no-undef
+  270:10  warning  'on110' is defined but never used                        no-unused-vars
+  278:13  warning  'startBtn' is not defined                                no-undef
+  300:5   warning  'colorchangerstatus' is assigned a value but never used  no-unused-vars
+  303:10  warning  'colourchanger' is defined but never used                no-unused-vars
+  309:13  warning  'stopBtn' is not defined                                 no-undef
+  314:13  warning  'f' is not defined                                       no-undef
+  315:13  warning  'next' is not defined                                    no-undef
+  316:13  warning  'next' is not defined                                    no-undef
+  319:13  warning  'counter' is not defined                                 no-undef
+  320:13  warning  'update' is not defined                                  no-undef
+  330:13  warning  'stopBtn' is not defined                                 no-undef
+  335:13  warning  'f' is not defined                                       no-undef
+  336:13  warning  'next' is not defined                                    no-undef
+  337:13  warning  'next' is not defined                                    no-undef
+  340:13  warning  'counter' is not defined                                 no-undef
+  341:13  warning  'update' is not defined                                  no-undef
+  351:13  warning  'stopBtn' is not defined                                 no-undef
+  356:13  warning  'f' is not defined                                       no-undef
+  357:13  warning  'next' is not defined                                    no-undef
+  358:13  warning  'next' is not defined                                    no-undef
+  361:13  warning  'counter' is not defined                                 no-undef
+  362:13  warning  'update' is not defined                                  no-undef
+  372:13  warning  'stopBtn' is not defined                                 no-undef
+  377:13  warning  'f' is not defined                                       no-undef
+  378:13  warning  'next' is not defined                                    no-undef
+  379:13  warning  'next' is not defined                                    no-undef
+  382:13  warning  'counter' is not defined                                 no-undef
+  383:13  warning  'update' is not defined                                  no-undef
+  393:13  warning  'stopBtn' is not defined                                 no-undef
+  398:13  warning  'f' is not defined                                       no-undef
+  399:13  warning  'next' is not defined                                    no-undef
+  400:13  warning  'next' is not defined                                    no-undef
+  401:13  warning  'next' is not defined                                    no-undef
+  404:13  warning  'counter' is not defined                                 no-undef
+  405:13  warning  'update' is not defined                                  no-undef
+  429:10  warning  'counter1' is defined but never used                     no-unused-vars
+
+/home/runner/work/exp-oxalic-acid-reaction-iitk/exp-oxalic-acid-reaction-iitk/experiment/simulation/javascript/newsteps.js
+    3:5   warning  'tstand' is assigned a value but never used  no-unused-vars
+   40:10  warning  'start1' is defined but never used           no-unused-vars
+   49:9   warning  'counter' is not defined                     no-undef
+   50:9   warning  'update' is not defined                      no-undef
+   59:9   warning  'counter' is not defined                     no-undef
+   59:17  warning  'in1' is not defined                         no-undef
+   60:9   warning  'update' is not defined                      no-undef
+   64:9   warning  'verify' is not defined                      no-undef
+   72:13  warning  'counter' is not defined                     no-undef
+   73:13  warning  'update' is not defined                      no-undef
+   83:9   warning  'counter' is not defined                     no-undef
+   84:9   warning  'update' is not defined                      no-undef
+   99:5   warning  'reading' is not defined                     no-undef
+  100:5   warning  'values' is not defined                      no-undef
+  102:5   warning  'buttons2' is not defined                    no-undef
+  106:5   warning  'reading' is not defined                     no-undef
+  108:5   warning  'timer1' is not defined                      no-undef
+  109:5   warning  'timer1' is not defined                      no-undef
+  113:5   warning  'tmeter20' is not defined                    no-undef
+  114:5   warning  'tmeter20' is not defined                    no-undef
+  115:5   warning  'flaskchange' is not defined                 no-undef
+  116:5   warning  'flaskchange' is not defined                 no-undef
+  126:5   warning  'reading' is not defined                     no-undef
+  127:5   warning  'reading' is not defined                     no-undef
+  128:5   warning  'reading' is not defined                     no-undef
+  129:5   warning  'reading' is not defined                     no-undef
+  130:5   warning  'values' is not defined                      no-undef
+  131:5   warning  'values' is not defined                      no-undef
+  132:5   warning  'counter1' is not defined                    no-undef
+  147:5   warning  'oner' is not defined                        no-undef
+  148:5   warning  'machinedivhide' is not defined              no-undef
+  152:10  warning  'resizemachine' is defined but never used    no-unused-vars
+  155:5   warning  'reading' is not defined                     no-undef
+  156:5   warning  'reading' is not defined                     no-undef
+  157:5   warning  'reading' is not defined                     no-undef
+  158:5   warning  'reading' is not defined                     no-undef
+  159:5   warning  'values' is not defined                      no-undef
+  160:5   warning  'buttons' is not defined                     no-undef
+  169:10  warning  'pipet1' is defined but never used           no-unused-vars
+  312:49  warning  'counter' is not defined                     no-undef
+  313:49  warning  'update' is not defined                      no-undef
+  331:9   warning  'distilledFlask' is not defined              no-undef
+  348:17  warning  'distilledFlask' is not defined              no-undef
+
+/home/runner/work/exp-oxalic-acid-reaction-iitk/exp-oxalic-acid-reaction-iitk/experiment/simulation/javascript/script.js
+  40:5   warning  'hindibtn' is assigned a value but never used  no-unused-vars
+  41:5   warning  'engbtn' is assigned a value but never used    no-unused-vars
+  50:10  warning  'hindi1' is defined but never used             no-unused-vars
+  56:5   warning  'next' is not defined                          no-undef
+  61:10  warning  'eng1' is defined but never used               no-unused-vars
+  67:5   warning  'next' is not defined                          no-undef
+
+/home/runner/work/exp-oxalic-acid-reaction-iitk/exp-oxalic-acid-reaction-iitk/experiment/simulation/javascript/stopwatch.js
+   4:10  warning  'startBtn' is defined but never used  no-unused-vars
+   5:5   warning  'timer' is not defined                no-undef
+  10:5   warning  'timer' is not defined                no-undef
+  13:10  warning  'resetBtn' is defined but never used  no-unused-vars
+  14:5   warning  'timer' is not defined                no-undef
+  22:9   warning  'timer' is not defined                no-undef
+  52:12  warning  'oner' is not defined                 no-undef
+  52:25  warning  'colorchangerstatus' is not defined   no-undef
+  53:17  warning  'f' is not defined                    no-undef
+  55:17  warning  'ptext' is not defined                no-undef
+  57:21  warning  'popup' is not defined                no-undef
+  58:21  warning  'popuphider' is not defined           no-undef
+  59:21  warning  'counter' is not defined              no-undef
+  60:21  warning  'update' is not defined               no-undef
+  63:17  warning  'colorchangerstatus' is not defined   no-undef
+  64:13  warning  'colourchanger' is not defined        no-undef
+
+✖ 181 problems (0 errors, 181 warnings)
+
